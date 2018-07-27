@@ -36,9 +36,13 @@
 .navbuttons {
     border-right: solid 1px #bbb;
     padding-left: 15px;
-    color: #777;
+    color: #777777;    
 }
 
+
+.navbuttons:hover {
+    color: pink;
+}
 .navbuttons:last-of-type {
     border-right: none;
     }
@@ -135,22 +139,30 @@ input[type=text] {
     margin-top: 10px;
     width: 909px;
     margin-bottom: 50px;
-    color: #eeeeee;
+    color: #777;
     overflow: auto;
+    padding: 20px;
+    font-size: 14px;
+
 
 }
 
 form {
     margin-left: 10px;
     color: #777;
+
 }
 
 #name {
     border: solid 1px #ccc;
+    color: #777;
+    font-size: 14px;
 }
 
 #email {
     border: solid 1px #ccc;
+    color: #777;
+    font-size: 14px;
 }
 
 input[type=submit] {
