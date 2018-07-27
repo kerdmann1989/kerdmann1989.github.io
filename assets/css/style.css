@@ -43,13 +43,14 @@
 .navbuttons:hover {
     color: pink;
 }
+
 .navbuttons:last-of-type {
     border-right: none;
     }
 
 .topnav-right {
     float: right;
-    padding: 15px;
+    padding: 33px 25px 25px 25px;
 }
 
 .topnav-right a {
