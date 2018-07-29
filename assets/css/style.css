@@ -5,20 +5,26 @@
 
 /* Top Nav  */
 
+/* Top Nav  */
+
 #navname {
     background-color: #4aaaa5;
     float:left; 
     padding: 10px;
     height: 96px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    /* top: 0; */
+    /* left: 227px; */
 }
 
 #navname h1 {
     color: #eeeeee;
+}
 
+.navcontainer {
+    width: 960px;
+    margin: auto;
 }
 
 .topnav {
@@ -26,31 +32,34 @@
     border-style: solid;
     border-width: 0 0 2px 0;
     border-color: #cccccc;
-    width: 960px;
     height: 96px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 1;
+    justify-content: center;
 }
 
 .navbuttons {
     border-right: solid 1px #bbb;
     padding-left: 15px;
-    color: #777777;    
-}
-
-
-.navbuttons:hover {
-    color: pink;
+    color: #777;
 }
 
 .navbuttons:last-of-type {
     border-right: none;
     }
 
+.navbuttons:hover {
+    color: pink;
+    }
+
 .topnav-right {
     float: right;
-    padding: 33px 25px 25px 25px;
+    padding: 33px 0px 25px 25px;
+    /* margin-right: 198px; */
 }
 
 .topnav-right a {
@@ -61,25 +70,27 @@
 
 body {
     background-color: #999 ; 
-    width: 960px;
+    /* width: 960px; */
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     background-image: url('../images/full-bloom.png');
-    /* background-repeat: repeat-x;  */
+   
 }
 
 .wrapper {
     clear: both;
-    width: 960px;
     background-color: #fff;
+    width: 960px;
     overflow: auto;
     padding: 5px 20px;
-    margin-top: 115px;
     border-color: #ddd;
     border-style: solid;
     border-width: 1px;
     position: absolute;
-    left: 0;
+    left: 10%;
+    right: 10%; 
+    margin: auto;
+    margin-top: 120px;
 }
 
 p {
@@ -144,8 +155,6 @@ input[type=text] {
     overflow: auto;
     padding: 20px;
     font-size: 14px;
-
-
 }
 
 form {
